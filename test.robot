@@ -13,7 +13,7 @@ ${speed}   1
 BMI Calculator Test
     [Documentation]    TDD övning
     [Tags]    Test1
-    Set Selenium Speed    ${speed}
+    
 
     Open Browser    browser=Chrome    url=${calculator_url}
     Wait Until Element Is Visible    //h1[normalize-space()='BMI Calculator']
